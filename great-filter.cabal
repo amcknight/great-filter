@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 69408f7014e8b38face426a79090a9f93ff2f044606082c88dccf7331ec32395
+-- hash: 36b316967d783aaf4343d2f0d747c8724cc2d4952f4e9c6649df1e9042648e07
 
 name:           great-filter
 version:        0.0.1
@@ -34,6 +34,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , monad-bayes
   default-language: Haskell2010
 
 executable great-filter-exe
@@ -46,6 +47,7 @@ executable great-filter-exe
   build-depends:
       base >=4.7 && <5
     , great-filter
+    , monad-bayes
   default-language: Haskell2010
 
 test-suite great-filter-test
@@ -59,4 +61,5 @@ test-suite great-filter-test
   build-depends:
       base >=4.7 && <5
     , great-filter
+    , monad-bayes
   default-language: Haskell2010

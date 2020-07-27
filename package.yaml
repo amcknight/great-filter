@@ -1,5 +1,5 @@
 name:                great-filter
-version:             0.0.1.0
+version:             0.0.1
 github:              "amcknight/great-filter"
 license:             BSD3
 author:              "Andrew McKnight"
@@ -10,15 +10,7 @@ extra-source-files:
 - README.md
 - ChangeLog.md
 
-# Metadata used when publishing your package
-# synopsis:            Short description of your package
-# category:            Web
-
-# To avoid duplicated efforts in documentation and dealing with the
-# complications of embedding Haddock markup inside cabal files, it is
-# common to point users to the README.md file.
 description:         Please see the README on GitHub at <https://github.com/amcknight/great-filter#readme>
-
 dependencies:
 - base >= 4.7 && < 5
 - monad-bayes
